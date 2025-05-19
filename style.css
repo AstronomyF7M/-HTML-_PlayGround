@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9fb;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+h1, h2, h3 {
+  color: #3b3b6d;
+}
+
+form {
+  background: #fff;
+  padding: 1.2em 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(36,41,46,0.05);
+  max-width: 500px;
+  margin: 16px auto;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  margin: 0.3em 0;
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  background: #3b3b6d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5em;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #6060a1;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+iframe {
+  background: #fff;
+  border-radius: 6px;
+  margin-top: 0.8em;
+  border: 1px solid #e0e0e0;
+}
+
+div[style*="border: 1px solid"] {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(36,41,46,0.06);
+}
+
+details summary {
+  cursor: pointer;
+  color: #3b3b6d;
+  margin-bottom: 0.4em;
+}
+
+@media (max-width: 600px) {
+  form, div[style*="border: 1px solid"] {
+    max-width: 100%;
+    padding: 1em;
+  }
+  textarea {
+    min-width: 0;
+    width: 100%;
+    font-size: 1em;
+  }
+}
